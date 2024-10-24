@@ -19,7 +19,7 @@ function RecipePage() {
             <h1>{recipe.title}</h1>
             {recipe.image && <img src={recipe.image} alt={recipe.title} className="recipe-image" />}
 
-            <h3>Шаги приготовления:</h3>
+            <h3>HOW TO PREPARE</h3>
             {steps.map((step, index) => (
                 <p key={index}>STEP {index + 1}: {step.trim()}</p>
             ))}
