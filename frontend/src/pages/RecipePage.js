@@ -21,7 +21,7 @@ function RecipePage() {
 
             <h3>Шаги приготовления:</h3>
             {steps.map((step, index) => (
-                <p key={index}>Шаг {index + 1}: {step.trim()}</p>
+                <p key={index}>STEP {index + 1}: {step.trim()}</p>
             ))}
 
             <Link to={`/category/${recipe.category.id}`}>
